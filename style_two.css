@@ -2,6 +2,12 @@ body{
   background-color: #F6E3BA;
 }
 
+a:link{
+  color: lightblue;
+}
+
+
+
 .header{
   width: 100%;
   height: 100px;
