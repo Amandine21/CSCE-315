@@ -9,6 +9,10 @@ a:link{
   color: lightblue;
 }
 
+.tech tr a:link{
+  color: lightblue;
+}
+
 .footer li a:link{
   color: lightblue;
 }
