@@ -1,6 +1,17 @@
 body{
     background-color: black;
 }
+a:link{
+  color: lightblue;
+}
+
+.header a:link{
+  color: lightblue;
+}
+
+.footer li a:link{
+  color: lightblue;
+}
 
 .header{
     width: 100%;
@@ -166,13 +177,7 @@ tech:link a{
     color: black;
   }
 
-.tech a:link{
-  color: red;
-}
-
 /* 
-Fix The God damn link colors 
-
 .header{
     width: 100%;
     height: 100px;
