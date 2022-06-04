@@ -1,0 +1,177 @@
+body{
+  background-color: #F6E3BA;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #F6E3BA;
+}
+
+.inner_header{
+  width: 1150px;
+  height: 0%;
+  display: block;
+  margin: 0 auto;
+  background-color: #F6E3BA;
+}
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1{
+  color: black;
+  height: 100%;
+  display: table-cell;
+  vertical-align: bottom;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.navigation{
+  float: right;
+  height: 100%;
+}
+
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation a.active{
+  background-color: #04AA6D;
+  color: white'
+}
+
+.navigation a:last-child{
+  padding-right: 0;
+}
+
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  float: right;
+  height: 100%;
+  color: black;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+img{
+  height: 100px;
+  vertical-align: right;
+}
+
+span {
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  lavender;
+  margin-bottom: 27px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-col {
+  flex-basis: 50%;
+  height: fit-content;
+  width: fit-content;
+}
+
+.text-col {
+  font-size: 20px;
+  padding-left: 20px; 
+  flex-basis: 50%;
+  height: fit-content;
+  width: fit-content;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  background-color:  #F6E3BA;
+  color: black;
+  text-align:center;
+}
+
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #F6E3BA;
+}
+
+.footer li{
+  text-align: center;
+  float:none;
+}
+
+table, th, td {
+  border:1px;
+}
+
+.tech table{
+  table-layout: auto;
+  width: 100%;
+  text-align: left;
+
+}
+
+.tech td{ 
+  height: 39px;
+  padding-top: 5px; 
+  padding-bottom:15px;
+  padding-left: 160px; 
+}
+
+.tech th{
+  background: white;
+  height: 97px;
+  font-size: 47px;
+  text-align: center;
+}
+
+.tech tr:nth-child(even) {
+  background: lavender;
+}
+
+.tech tr:nth-child(odd) {
+  background:#F6E3BA;
+}
+
+
+/*
+1) White Border how to get rid of?
+2) Work on my links I want them centered under the name
+3) Center the Name
+2) Hidden Text?
