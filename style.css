@@ -166,6 +166,10 @@ tech:link a{
     color: black;
   }
 
+.tech a:link{
+  color: red;
+}
+
 /* 
 Fix The God damn link colors 
 
